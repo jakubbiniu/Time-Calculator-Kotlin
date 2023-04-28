@@ -63,7 +63,7 @@
         android:layout_width="70dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:inputType="numberSigned"
+        android:inputType="number"
         android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Minutes1"
