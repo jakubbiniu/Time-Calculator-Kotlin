@@ -10,6 +10,7 @@
         android:id="@+id/AC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="AC"
         android:text="AC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,6 +22,7 @@
         android:id="@+id/Odejmowanie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Substract"
         android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +35,7 @@
         android:id="@+id/Dodawanie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Add"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Odejmowanie"
@@ -60,7 +63,7 @@
         android:layout_width="70dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberSigned"
         android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Minutes1"
@@ -196,19 +199,5 @@
         app:layout_constraintStart_toEndOf="@+id/Minutes2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.425" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="-35dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="-43dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
