@@ -1,16 +1,12 @@
 package edu.put.inf151921
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.DatePicker
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
-import java.time.DayOfWeek
-import java.time.LocalDate
-import java.time.Month
-import kotlin.io.path.createTempDirectory
 
 
 class Dates : AppCompatActivity() {
